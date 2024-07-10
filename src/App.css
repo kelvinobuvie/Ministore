@@ -337,8 +337,14 @@
       margin-bottom: 10px;
     }
     .footer {
-      grid-template-columns: 1fr;
+      grid-template-columns: auto auto;
       gap: 5px;
+    }
+    .footer-content{
+      padding: 10px 35px;
+    }
+    .footer-content p{
+      font-size: 11px;
     }
   }
   
