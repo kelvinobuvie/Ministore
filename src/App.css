@@ -313,6 +313,7 @@
       margin-bottom: 10px;
     }
     .navbar ul {
+      display: none;
       flex-direction: row;
       padding: 5px;
     }
