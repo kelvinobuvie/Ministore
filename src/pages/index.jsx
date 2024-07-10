@@ -3,7 +3,6 @@ import Bag from '../components/bag'
 import Topbag from '../components/topbags'
 import Footer from '../components/footer'
 
-
 export default function Home() {
   return (
     <>

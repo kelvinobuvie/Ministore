@@ -5,7 +5,7 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom';
 import Home from '../src/pages/index'
 import Navbar from './components/navbar';
-
+import Cart from '../src/pages/Cart';
 
 
 const App = () => {
@@ -15,8 +15,9 @@ const App = () => {
     <Navbar />
       <div className="container">
         <Routes>
-        <Route path="" index={true} element={<Home />}/>
-
+        <Route  index={true} element={<Home />}/>
+        <Route path="/home" element={<Home />}/>
+        <Route path="/cart" element={<Cart/>}/>
         </Routes>
         {/* <Route path="/cart/:productId" element={<Cart />}/> */}
     {/* <Cart /> */}

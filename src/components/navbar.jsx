@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 export default function Navbar() {
   return (
@@ -10,7 +12,7 @@ export default function Navbar() {
         <input type="text"  placeholder='Search products, brands and categories' />
         </div>
         <ul>
-          <li><img src="/Cart.png" alt="" /></li>
+          <Link to="/cart" className='Cart'><h4>Cart</h4><li><img src="/Cart.png" alt="" /></li></Link>
           <li><img src="/Account.png" alt="" /></li>
           <li><img src="/Menu.png" alt="" /></li>
         </ul>
