@@ -1,0 +1,343 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 2rem;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: none;
+  font-family: 'Poppins', sans-serif;
+}  
+
+.container{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 2rem;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: none;
+  font-family: 'Poppins', sans-serif;
+  }
+
+  .navbar{
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+  }
+
+  .logo img{
+    width: 50px;
+    height: 50px;
+  }
+
+  input {
+    width: 620px;
+    height: 42px;
+    border-radius: 100px;
+    font-size: 20px;
+    border: 1px solid #000000;
+    padding: 0px 30px;
+  }
+
+  .navbar ul{
+    display: flex;
+  }
+  .navbar li{
+    font-size: 1rem;
+    padding: 15px 20px;
+    color: #000000;
+  }
+  .sales-week{
+    margin-top: 40px;
+    padding: 15px 50px;
+    background-color: #00A4FC;
+    font-size: 40px;
+    text-decoration: none;
+    color: #ECF8FF;
+    border-radius: 60px;
+    box-shadow: 0px 5px 35px #00A4FC;
+  }
+  .hero{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: #ECF8FF;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    /* padding: 50px 10%; */
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  /* .side-A h4{
+    background-color: aqua;
+    width: 210px;
+    height: 132px;
+  } */
+  .side-B{
+    width: 50%;
+  }
+  .image img{
+    width: 600px;
+    height: 600px;
+  }
+
+.content{
+    /* padding-left: 70px; */
+    /* text-align: center; */
+    width: 50%;
+    /* justify-content: center; */
+    padding: 36px;
+    /* background-color: #FEF0E9; */
+    width: 50%;
+    height: 350px;
+    text-align: center;
+    align-items: center;
+    border-radius: 17px;
+  }
+  .content a{
+    padding: 25px 30px;
+    background-color: #FEF0E9;
+    border-radius: 90px;
+    height: 70px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #565D64;
+  }
+  .content p{
+    margin-top: 12px;
+    color: #194E6A;
+    font-weight: 400;
+  }
+
+  .content h1{
+    margin-top: 40px;
+    font-size: 80px;
+    color: #194E6A;
+  }
+
+  .bag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdfbf9 ;
+    margin-top: 20px;
+    padding: 7.1px 3px 7.1px 3px;
+    box-shadow: 11px,   #000000;
+    width: 400px;
+    height: 217px;
+    /* gap: 30px; */
+    box-shadow: 9.3px 12.68px 21px rgb(233, 233, 233);
+  }
+  .bag-content{
+    text-align: center;
+  }
+  .bag h4{
+    padding: 10px 0;
+    color: #565D64;
+    font-weight: 700;
+  }
+  .bag h2{
+    font-size: 25px;
+    color: #194E6A;
+  }
+  .bag p{
+    font-size: 11px;
+    color: #194E6A;
+  }
+
+  .top-beauty h4{
+    color: #565D64;
+    font-weight: 400;
+  }
+  
+  .top-sales{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 5px;
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+    /* align-items: center; */
+  }
+
+  .bag img{
+    width: 180px;
+    height: 160px;
+  }
+
+  .top-beauty{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 200px;
+    background-color: #ECF8FF;
+    margin-top: 73px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* width: 400px; */
+  }
+  .add{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .item{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+  }
+
+  .item a{
+    text-decoration: none;
+    color: #ECF8FF;
+    background-color: #37A8E5;
+    align-self: flex-end;
+    padding: 6px 15px;
+    font-size: 10px;
+    box-shadow: 0px 8px 22px rgb(233, 233, 233);
+  }
+
+  .add a{
+    text-decoration: none;
+    color: #EAEBEC;
+    background-color: #00A4FC;
+  }
+
+  .top-bags{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .topbag{
+    padding: 36px;
+    background-color: #FEF0E9;
+    width: 230px;
+    height: 350px;
+    text-align: center;
+    align-items: center;
+    border-radius: 17px;
+  }
+  .topbag-content a{
+    text-decoration: none;
+    color: #ECF8FF;
+    background-color: #37A8E5;
+    align-self: flex-end;
+    padding: 6px 15px;
+    font-size: 10px;
+    box-shadow: 0px 8px 22px rgb(233, 233, 233);
+  }
+  .topbag-content h2{
+    padding: 10px 0;
+    color: #194E6A;
+  }
+
+  .top-bags h4{
+    color: #565D64;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .topbag-content p{
+    font-size: 11px;
+    font-weight: 700;
+    color: #194E6A;
+  }
+  .topbag img{
+    padding: 25px 0;
+  }
+
+  .footer{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 80px;
+    /* padding: 36px; */
+    justify-content: center;
+    background-color: #194E6A;
+  }
+
+  .footer-content{
+    padding: 36px;
+    color: #EAEBEC;
+    width: 230px;
+    /* height: 350px; */
+    /* text-align: center; */
+    /* align-items: center; */
+    justify-content: center;
+    border-radius: 17px;
+    font-size: 15px;
+  }
+
+  .footer-content p{
+    padding: 9px 0;
+  }
+  
+
+
+
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+      height: auto;
+      padding: 20px;
+    }
+    .image img {
+      width: 100%;
+      height: auto;
+    }
+    .content {
+      width: 100%;
+      padding: 20px;
+    }
+    input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .navbar ul {
+      flex-direction: row;
+      padding: 5px;
+    }
+    .sales-week {
+      font-size: 24px;
+      padding: 10px 20px;
+    }
+
+    .top-sales{
+      grid-template-columns: auto;
+    }
+
+    .top-bags{
+      grid-template-columns: auto;
+    }
+    .top-beauty {
+      flex-direction: column;
+      padding: 10px 20px;
+    }
+    .top-beauty h4 {
+      margin-bottom: 10px;
+    }
+    .footer {
+      grid-template-columns: 1fr;
+      gap: 5px;
+    }
+  }
+  
