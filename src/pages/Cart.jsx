@@ -3,6 +3,7 @@ import React from 'react'
 import Cartitem from '../components/cart-item'
 import Addmore from '../components/addmore'
 import Checkout from '../components/checkout'
+import Footer from '../components/footer'
 
 
 export default function Cart() {
@@ -21,6 +22,7 @@ export default function Cart() {
             <Checkout/>
         </div>
     </div>
+    <Footer/>
     </>
   )
 }
