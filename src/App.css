@@ -317,11 +317,14 @@
     background-color: #00A4FC;
     border: none;
     padding: 10px 70px;
+    color: #ECF8FF;
+    font: 24px;
   }
   .checkout{
     background-color: #F26722;
     border: none;
     padding: 10px 70px;
+    color: #ECF8FF;
   }
 
   .btns{
