@@ -8,6 +8,7 @@ import Checkout from '../components/checkout'
 export default function Cart() {
   return (
     <>
+    <div className="cart-container">
     <div className="cart-header">
         <h1><img src="/cartimg.png" alt=""/> Here is your Cart</h1>
     </div>
@@ -19,6 +20,7 @@ export default function Cart() {
             <Addmore/>
             <Checkout/>
         </div>
+    </div>
     </>
   )
 }
