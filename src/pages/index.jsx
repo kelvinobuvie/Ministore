@@ -1,7 +1,8 @@
 import React from 'react'
-import Bag from '../components/bag'
+// import Bag from '../components/bag'
 import Topbag from '../components/topbags'
 import Footer from '../components/footer'
+import Products from '../components/Products'
 
 export default function Home() {
   return (
@@ -17,14 +18,7 @@ export default function Home() {
         <img src="/puffy-clouds.png" alt="" />
       </div>
       </div>
-      <div className="top-sales">
-        <Bag/>
-        <Bag/>
-        <Bag/>
-        <Bag/>
-        <Bag/>
-        <Bag/>
-      </div>
+      <Products/>
       
       <div className="top-beauty">
         <h4>Top Beauty Bags</h4>

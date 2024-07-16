@@ -6,15 +6,12 @@ export default function Navbar() {
   return (
     <div className="navbar">
         <div className="logo">
-          <img src="/Profileimg.png" alt="" />
-        </div>
-        <div className="search">
-        <input type="text"  placeholder='Search products, brands and categories' />
+          {/* <img src="/Profileimg.png" alt="" /> */}
         </div>
         <ul>
-          <Link to="/cart" className='Cart'><h4>Cart</h4><li><img src="/Cart.png" alt="" /></li></Link>
-          <li><img src="/Account.png" alt="" /></li>
-          <li><img src="/Menu.png" alt="" /></li>
+          <li><Link to="/home"><b>Home</b></Link></li>
+          <li><Link to="#"><b>Wishlist</b></Link></li>
+          <li><Link to="/cart"><b>Cart</b></Link></li>
         </ul>
     </div>
 

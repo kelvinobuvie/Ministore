@@ -3,8 +3,8 @@ import React from 'react'
 export default function Cartitem() {
   return (
     <div>
-        <div className="bag">
-        <div className="bag-content">
+        <div className="Product">
+        <div className="Product-content">
         <h4>$2500</h4>
         <h2>Red leader Bag</h2>
         <p>most popular among set</p>
