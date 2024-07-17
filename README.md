@@ -37,10 +37,10 @@ The project is deployed on Netlify. You can view it live [here](https://hngminis
 
 # Screenshots
 <div style="dislplay:flex;">
-<img width="400" alt="Screenshot 2023-07-23 034651" src="[src/assets/Hero.png](https://github.com/kelvinobuvie/Ministore/blob/main/src/assets/Hero.png)">
-<img width="400" alt="Screenshot 2023-07-23 034832" src="https://github.com/kelvinobuvie/Resturant-web-app/assets/69580757/56230eb8-f43b-47d3-bd17-1321dc9c0761">
-<img width="400" alt="Screenshot 2023-07-23 034929" src="https://github.com/kelvinobuvie/Resturant-web-app/assets/69580757/e0eeae7b-2f07-4e6a-b276-928dc57e5b49">
-<img width="400" alt="Screenshot 2023-07-23 035003" src="https://github.com/kelvinobuvie/Resturant-web-app/assets/69580757/17f34086-31d4-4ce9-ab98-797834e73b54">
+<img width="400" alt="Screenshot 2023-07-23 034832" src="https://github.com/kelvinobuvie/Ministore/blob/main/src/assets/Hero.png">
+<img width="400" alt="Screenshot 2023-07-23 034929" src="https://github.com/kelvinobuvie/Ministore/blob/main/src/assets/top%20sales%20.png">
+<img width="400" alt="Screenshot 2023-07-23 035003" src="https://github.com/kelvinobuvie/Ministore/blob/main/src/assets/top%20beauty.png">
+<img width="400" alt="Screenshot 2023-07-23 035003" src="https://github.com/kelvinobuvie/Ministore/blob/main/src/assets/footer.png">
 </div>
 
 ---
