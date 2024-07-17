@@ -1,4 +1,4 @@
-# Resturant-web-app
+# HNG Mini Store - E-commerce Landing Page
 Welcome to the HNG Mini Store, an e-commerce landing page designed to showcase and sell premium bags. This project was built to provide a seamless and visually appealing shopping experience for users. The landing page features a clean design, responsive layout, and highlights the top sales and beauty bags.
 
 ---
