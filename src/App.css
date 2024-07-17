@@ -69,7 +69,7 @@
 }
 
   .sales-week{
-    margin-top: 50px;
+    margin-bottom: 30px;
     padding: 15px 50px;
     background-color: #00A4FC;
     font-size: 40px;
@@ -105,6 +105,8 @@
   }
 
 .content{
+  display: flex;
+    flex-direction: column;
     /* padding-left: 70px; */
     /* text-align: center; */
     width: 50%;
@@ -117,11 +119,11 @@
     align-items: center;
     border-radius: 17px;
   }
-  .content a{
+  .verified{
     padding: 25px 30px;
     background-color: #FEF0E9;
     border-radius: 90px;
-    height: 70px;
+    /* height: 70px; */
     font-size: 40px;
     font-weight: 700;
     color: #565D64;
@@ -133,7 +135,7 @@
   }
 
   .content h1{
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 80px;
     color: #194E6A;
   }
@@ -381,7 +383,7 @@
       padding: 10px 20px;
     }
 
-    .top-sales{
+    .Products{
       grid-template-columns: auto;
     }
 

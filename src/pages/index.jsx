@@ -7,10 +7,10 @@ import Products from '../components/Products'
 export default function Home() {
   return (
     <>
-    <a className="sales-week" href="">Top sales of the week</a>
       <div className="hero">
       <div className="content">
-        <a>Verified</a>
+        <a className="sales-week" href="">Top sale of the week</a>
+        <a className="verified">Verified</a>
         <h1>Puffy Clouds</h1>
         <p>Most popular among it's set</p>
       </div>
